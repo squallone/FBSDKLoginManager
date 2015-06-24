@@ -74,6 +74,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		58348F9F1B3B1F2A00C03464 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58CAF4B61B3482C8001C560E /* AppDelegate.h */,
+				58CAF4B71B3482C8001C560E /* AppDelegate.m */,
+				58CAF4B91B3482C8001C560E /* ViewController.h */,
+				58CAF4BA1B3482C8001C560E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		58CAF4A61B3482C8001C560E = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +108,7 @@
 		58CAF4B11B3482C8001C560E /* Testing FB */ = {
 			isa = PBXGroup;
 			children = (
-				58CAF4B61B3482C8001C560E /* AppDelegate.h */,
-				58CAF4B71B3482C8001C560E /* AppDelegate.m */,
-				58CAF4B91B3482C8001C560E /* ViewController.h */,
-				58CAF4BA1B3482C8001C560E /* ViewController.m */,
+				58348F9F1B3B1F2A00C03464 /* Controllers */,
 				58CAF4BC1B3482C8001C560E /* Main.storyboard */,
 				58CAF4BF1B3482C8001C560E /* Images.xcassets */,
 				58CAF4C11B3482C8001C560E /* LaunchScreen.xib */,
